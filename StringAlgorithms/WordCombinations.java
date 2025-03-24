@@ -1,29 +1,34 @@
-// package CSESSolutionsJava.StringAlgorithms;//comment this line
+// package CSESSolutionsJava.StringAlgorithms;//uncomment this line to run the code in local
 import java.util.*;
 
+class TrieNode {
+    TrieNode[] arr;
+    boolean endOfWord;
+
+    TrieNode() {
+        arr=new TrieNode[26];
+        endOfWord=false;
+    }
+}
+
 class Trie {
-    int[][] root;
-    static int value=1;
-    boolean[] endOfWord;
+    TrieNode root;
 
     Trie() {
-        root=new int[(int)1e6+3][26];
-        endOfWord=new boolean[(int)1e6+3];
+        root=new TrieNode();
     }
 
     public void insertWord(String word) {
-        int currNode=0;
+        TrieNode curr=root;
 
         for (char ch: word.toCharArray()) {
-            if (root[currNode][ch-'a']==0) {
-                root[currNode][ch-'a']=value;
-                value++;
-            }
+            if (curr.arr[ch-'a']==null)
+                curr.arr[ch-'a']=new TrieNode();
             
-            currNode=root[currNode][ch-'a'];
+            curr=curr.arr[ch-'a'];
         }
 
-        endOfWord[currNode]=true;
+        curr.endOfWord=true;
     }
 }
 
@@ -50,24 +55,24 @@ public class WordCombinations {
             trie.insertWord(word);
 
         for (int i=n-1;i>=0;i--) {
-            dp[i]=countWays(i,s,trie.root,trie.endOfWord,dp);
+            dp[i]=countWays(i,s,trie,dp);
         }
 
         return dp[0];
     }
 
-    public static int countWays(int start,String s,int[][] root,boolean[] endOfWord,int[] dp) {
+    public static int countWays(int start,String s,Trie trie,int[] dp) {
         int ways=0;
-        int currNode=0;
+        TrieNode currNode=trie.root;
         int mod=(int)1e9+7;
 
         for (int i=start;i<s.length();i++) {
             char ch=s.charAt(i);
-            if (root[currNode][ch-'a']==0)
+            if (currNode.arr[ch-'a']==null)
                 return ways;
             
-            currNode=root[currNode][ch-'a'];
-            if (endOfWord[currNode])
+            currNode=currNode.arr[ch-'a'];
+            if (currNode.endOfWord)
                 ways=(ways+dp[i+1])%mod;
         }
 
