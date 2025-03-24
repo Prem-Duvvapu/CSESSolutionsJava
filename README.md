@@ -13,5 +13,5 @@ javac CSESSolutionsJava/StringAlgorithms/FileName.java
 Run the following command inside the project root:
 
 ```sh
-java CSESSolutionsJava.StringAlgorithms.WordCombinations
+java CSESSolutionsJava.StringAlgorithms.FileName
 ```
