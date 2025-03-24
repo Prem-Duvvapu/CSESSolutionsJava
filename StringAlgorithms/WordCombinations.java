@@ -1,59 +1,41 @@
-package CSESSolutionsJava.StringAlgorithms;
+// package CSESSolutionsJava.StringAlgorithms;//comment this line
 import java.util.*;
 
-class TrieNode {
-    TrieNode[] arr;
-    boolean endOfWord;
-
-    TrieNode() {
-        arr=new TrieNode[26];
-        endOfWord=false;
-    }
-}
-
 class Trie {
-    TrieNode root;
+    int[][] root;
+    static int value=1;
+    boolean[] endOfWord;
 
     Trie() {
-        root=new TrieNode();
+        root=new int[(int)1e6+3][26];
+        endOfWord=new boolean[(int)1e6+3];
     }
 
     public void insertWord(String word) {
-        TrieNode curr=root;
+        int currNode=0;
 
         for (char ch: word.toCharArray()) {
-            if (curr.arr[ch-'a']==null)
-                curr.arr[ch-'a']=new TrieNode();
+            if (root[currNode][ch-'a']==0) {
+                root[currNode][ch-'a']=value;
+                value++;
+            }
             
-            curr=curr.arr[ch-'a'];
+            currNode=root[currNode][ch-'a'];
         }
 
-        curr.endOfWord=true;
-    }
-
-    public boolean isWordExists(String word) {
-        TrieNode curr=root;
-
-        for (char ch: word.toCharArray()) {
-            if (curr.arr[ch-'a']==null)
-                return false;
-
-            curr=curr.arr[ch-'a'];
-        }
-
-        return curr.endOfWord==true;
+        endOfWord[currNode]=true;
     }
 }
 
 public class WordCombinations {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String s=sc.nextLine();
+        String s=sc.next();
         int k=sc.nextInt();
         String[] words=new String[k];
 
         for (int i=0;i<k;i++)
-            words[i]=sc.nextLine();
+            words[i]=sc.next();
 
         System.out.println(solve(s,k,words));
     }
@@ -62,19 +44,33 @@ public class WordCombinations {
         int n=s.length();
         Trie trie=new Trie();
         int[] dp=new int[n+1];
+        dp[n]=1;
 
         for (String word: words)
             trie.insertWord(word);
 
-        for (int i=n-1;i<n;i++) {
-            for (int j=i;j<n;j++) {
-                String prefix=s.substring(i,j+1);
-
-                if (trie.isWordExists(prefix))
-                    dp[i]+=dp[j+1];
-            }
+        for (int i=n-1;i>=0;i--) {
+            dp[i]=countWays(i,s,trie.root,trie.endOfWord,dp);
         }
 
         return dp[0];
+    }
+
+    public static int countWays(int start,String s,int[][] root,boolean[] endOfWord,int[] dp) {
+        int ways=0;
+        int currNode=0;
+        int mod=(int)1e9+7;
+
+        for (int i=start;i<s.length();i++) {
+            char ch=s.charAt(i);
+            if (root[currNode][ch-'a']==0)
+                return ways;
+            
+            currNode=root[currNode][ch-'a'];
+            if (endOfWord[currNode])
+                ways=(ways+dp[i+1])%mod;
+        }
+
+        return ways;
     }
 }
