@@ -6,12 +6,12 @@
 Run the following command inside the project root:
 
 ```sh
-javac CSESSolutionsJava/StringAlgorithms/FileName.java  
+javac CSESSolutionsJava/FolderName/FileName.java  
 ```
 
 ### **2️⃣ Run the Main Java file**
 Run the following command inside the project root:
 
 ```sh
-java CSESSolutionsJava.StringAlgorithms.FileName
+java CSESSolutionsJava.FolderName.FileName
 ```
