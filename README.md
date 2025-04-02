@@ -1,38 +1,17 @@
-## 🚀 How to Run
+# CSES Problem Set
 
-Follow these steps to compile and execute a Java program in this repository.
+## Introductory Problems
 
-### **📁 Folder and File Naming**
-- Replace `FolderName/` with your actual folder name.
-- Replace `FileName` with your actual Java file name (without the `.java` extension when running).
+- [Two Sets](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/TwoSets.java)
+- [Palindrome Reorder](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/PalindromeReorder.java)
+- [Creating Strings](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/CreatingStrings.java)
+- [Apple Divison](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/AppleDivision.java)
+- [Gray Code](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/GrayCode.java)
+- [Tower of Hanoi](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/TowerOfHanoi.java)
 
-### **1️⃣ Navigate to the Project Directory**
-Run the following command inside the project root:
 
-```sh
-cd CSESSolutionsJava/FolderName
-```
+## String Algorithms
 
-### **2️⃣ Compile the Java File**
-Run the following command to compile your Java program:
-
-```sh
-javac FileName.java  
-```
-
-### **3️⃣ Run the Compiled Java File**
-Execute the compiled Java program with:
-
-```sh
-java FileName
-```
-
-### **🔹 Notes**
-- Ensure that Java is installed on your system. You can check by running:
-  ```sh
-  java -version
-  ```
-- If your Java file is inside a package, use the fully qualified name while running it.
-- If you have multiple files, ensure all dependencies are compiled before execution.
-
-Happy Coding! 🚀
+- [String Matching](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/StringMatching.java)
+- [Finding Borders](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/FindingBorders.java)
+- [Word Combinations](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/WordCombinations.java)
