@@ -8,6 +8,7 @@
 - [Apple Divison](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/AppleDivision.java)
 - [Gray Code](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/GrayCode.java)
 - [Tower of Hanoi](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/TowerOfHanoi.java)
+- [Chessboard and Queens](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/ChessboardAndQueens.java)
 
 
 ## String Algorithms
