@@ -1,3 +1,5 @@
+//gfg solution link : 
+
 import java.util.Scanner;
 
 public class DigitQueries {
