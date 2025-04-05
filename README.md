@@ -10,6 +10,7 @@
 - [Tower of Hanoi](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/TowerOfHanoi.java)
 - [Chessboard and Queens](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/ChessboardAndQueens.java)
 - [Digit Queries](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/DigitQueries.java)
+- [Grid Paths](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/GridPaths.java)
 
 
 ## String Algorithms
