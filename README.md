@@ -14,7 +14,7 @@
 
 
 ## Sorting and Searching 
-- [Distinct Numbers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/GridPaths.java)
+- [Distinct Numbers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/DistinctNumbers.java)
 
 
 ## String Algorithms
