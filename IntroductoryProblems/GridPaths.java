@@ -1,12 +1,15 @@
-import java.util.*;
+import java.io.*;
 
 public class GridPaths {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        String path=sc.next();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        PrintWriter out=new PrintWriter(System.out);
+        String path=br.readLine();
 
         Solution solution=new Solution();
-        solution.solve(path);
+        solution.solve(path,out);
+
+        out.close();
     }
 }
 
@@ -14,13 +17,13 @@ class Solution {
     int[] dRow={-1,0,1,0};
     int[] dCol={0,1,0,-1};
 
-    public void solve(String path) {
+    public void solve(String path,PrintWriter out) {
         int startRow=0;
         int startCol=0;
         int n=7;
         boolean[][] inPath=new boolean[n][n];
         int res=helper(0,startRow,startCol,inPath,path,n);
-        System.out.println(res);
+        out.println(res);
     }
 
     public int helper(int pos,int r,int c,boolean[][] inPath,String path,int n) {

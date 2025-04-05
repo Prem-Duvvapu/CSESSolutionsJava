@@ -13,6 +13,10 @@
 - [Grid Paths](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/GridPaths.java)
 
 
+## Sorting and Searching 
+- [Distinct Numbers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/GridPaths.java)
+
+
 ## String Algorithms
 
 - [String Matching](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/StringMatching.java)
