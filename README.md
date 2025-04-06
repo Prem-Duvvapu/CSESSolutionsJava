@@ -1,7 +1,6 @@
 # CSES Problem Set
 
 ## Introductory Problems
-
 - [Two Sets](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/TwoSets.java)
 - [Palindrome Reorder](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/PalindromeReorder.java)
 - [Creating Strings](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/IntroductoryProblems/CreatingStrings.java)
@@ -17,8 +16,11 @@
 - [Distinct Numbers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/DistinctNumbers.java)
 
 
-## String Algorithms
+## Graph Algorithms 
+- [Message Route](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/MessageRoute.java)
 
+
+## String Algorithms
 - [String Matching](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/StringMatching.java)
 - [Finding Borders](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/FindingBorders.java)
 - [Word Combinations](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/WordCombinations.java)
