@@ -19,6 +19,8 @@
 ## Graph Algorithms 
 - [Message Route](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/MessageRoute.java)
 - [Building Teams](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/BuildingTeams.java)
+- [Labyrinth](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/Labyrinth.java)
+
 
 ## String Algorithms
 - [String Matching](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/StringMatching.java)
