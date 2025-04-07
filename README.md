@@ -14,6 +14,7 @@
 
 ## Sorting and Searching 
 - [Distinct Numbers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/DistinctNumbers.java)
+- [Apartments](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/Apartments.java)
 
 
 ## Graph Algorithms 
