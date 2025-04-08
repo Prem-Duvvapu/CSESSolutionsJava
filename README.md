@@ -26,6 +26,11 @@
 - [Labyrinth](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/Labyrinth.java)
 
 
+## Range Queries
+- [Static Range Sum Queries](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/RangeQueries/StaticRangeSumQueries.java)
+- [Dynamic Range Sum Queries](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/RangeQueries/DynamicRangeSumQueries.java)
+
+
 ## String Algorithms
 - [String Matching](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/StringMatching.java)
 - [Finding Borders](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/StringAlgorithms/FindingBorders.java)
