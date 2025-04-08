@@ -15,6 +15,9 @@
 ## Sorting and Searching 
 - [Distinct Numbers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/DistinctNumbers.java)
 - [Apartments](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/Apartments.java)
+- [Ferris Wheel](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/FerrisWheel.java)
+- [Sum of Two Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SumOfTwoValues.java)
+- [Maximum Subarray Sum](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/MaximumSubarraySum.java)
 
 
 ## Graph Algorithms 
