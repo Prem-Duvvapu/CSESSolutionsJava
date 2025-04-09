@@ -18,6 +18,7 @@
 - [Ferris Wheel](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/FerrisWheel.java)
 - [Sum of Two Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SumOfTwoValues.java)
 - [Maximum Subarray Sum](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/MaximumSubarraySum.java)
+- [Josephus Problem I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/JosephusProblemI.java)
 
 
 ## Graph Algorithms 
