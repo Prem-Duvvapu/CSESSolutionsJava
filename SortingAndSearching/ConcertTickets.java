@@ -28,14 +28,13 @@ class Solution {
     public void solve(int[] h,int[] t,int n,int m,PrintWriter out) {
         int[] res=new int[m];
         TreeMap<Integer,Integer> map=new TreeMap<>();
- 
+
         for (int i=0;i<n;i++)
             map.put(h[i],map.getOrDefault(h[i], 0)+1);
- 
- 
+
         for (int i=0;i<m;i++) {
             Integer price=map.floorKey(t[i]);
- 
+
             if (price==null) {
                 res[i]=-1;
             } else {
