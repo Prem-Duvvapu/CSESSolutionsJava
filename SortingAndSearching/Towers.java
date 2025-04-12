@@ -1,21 +1,56 @@
 import java.io.*;
 import java.util.*;
 
-public class StandardTemplate {
+public class Towers {
     public static void main(String[] args) {
         FastReader fr=new FastReader();
         PrintWriter out=new PrintWriter(System.out);
 
+        int n=fr.nextInt();
+        int[] k=new int[n];
+
+        for (int i=0;i<n;i++)
+            k[i]=fr.nextInt();
+
         Solution solution=new Solution();
-        solution.solve();
+        solution.solve(k,n,out);
 
         out.close();
     }
 }
 
 class Solution {
-    public void solve() {
-        
+    public void solve(int[] k,int n,PrintWriter out) {
+        List<Integer> list=new ArrayList<>();
+        list.add(k[0]);
+
+        for (int i=1;i<n;i++) {
+            upperBound(list,k[i]);
+        }
+
+        out.println(list.size());
+    }
+
+    public void upperBound(List<Integer> list,int val) {
+        int pos=list.size();
+        int low=0;
+        int high=list.size()-1;
+
+        while (low<=high) {
+            int mid=low+(high-low)/2;
+
+            if (list.get(mid)>val) {
+                pos=mid;
+                high=mid-1;
+            } else {
+                low=mid+1;
+            }
+        }
+
+        if (pos==list.size())
+            list.add(val);
+        else
+            list.set(pos,val);
     }
 }
 

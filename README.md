@@ -19,6 +19,10 @@
 - [Sum of Two Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SumOfTwoValues.java)
 - [Maximum Subarray Sum](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/MaximumSubarraySum.java)
 - [Concert Tickets](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/ConcertTickets.java)
+- [Stick Lengths](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/StickLengths.java)
+- [Movie Festival](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/MovieFestival.java)
+- [Towers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/Towers.java)
+- [Playlist](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/Playlist.java)
 - [Josephus Problem I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/JosephusProblemI.java)
 
 

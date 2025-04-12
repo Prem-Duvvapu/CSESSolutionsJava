@@ -1,21 +1,34 @@
 import java.io.*;
 import java.util.*;
 
-public class StandardTemplate {
+public class StickLengths {
     public static void main(String[] args) {
         FastReader fr=new FastReader();
         PrintWriter out=new PrintWriter(System.out);
 
+        int n=fr.nextInt();
+        int[] p=new int[n];
+
+        for (int i=0;i<n;i++)
+            p[i]=fr.nextInt();
+
         Solution solution=new Solution();
-        solution.solve();
+        solution.solve(p,n,out);
 
         out.close();
     }
 }
 
 class Solution {
-    public void solve() {
-        
+    public void solve(int[] p,int n,PrintWriter out) {
+        Arrays.sort(p);
+        int median=p[n/2];
+        long res=0;
+
+        for (int i=0;i<n;i++)
+            res+=Math.abs(p[i]-median);
+
+        out.println(res);
     }
 }
 
