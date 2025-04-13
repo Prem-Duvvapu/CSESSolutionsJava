@@ -29,7 +29,7 @@
 
 ## Dynamic Programming
 - [Dice Combinations](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/DiceCombinations.java)
-- [Minimizing Coins](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/MinimizingCoins.java)
+- [Minimizing Coins](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/MinimizingCoins.java)
 
 
 ## Graph Algorithms 
