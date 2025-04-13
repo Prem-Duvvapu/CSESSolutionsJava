@@ -27,6 +27,11 @@
 - [Josephus Problem I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/JosephusProblemI.java)
 
 
+## Dynamic Programming
+- [Dice Combinations](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/DiceCombinations.java)
+- [Minimizing Coins](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/MinimizingCoins.java)
+
+
 ## Graph Algorithms 
 - [Message Route](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/MessageRoute.java)
 - [Building Teams](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/BuildingTeams.java)
