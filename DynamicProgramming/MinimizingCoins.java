@@ -22,15 +22,32 @@ public class MinimizingCoins {
 
 class Solution {
     public void solve(int[] c,int x,int n,PrintWriter out) {
-        int[][] dp=new int[n+1][x+1];
-        for (int i=0;i<=n;i++)
+        int[][] dp=new int[n][x+1];
+        for (int i=0;i<n;i++)
             for (int j=0;j<=x;j++)
-                dp[i][j]=-1;
+                dp[i][j]=(int)1e9;
 
-        
+        for (int i=0;i<n;i++)
+            dp[i][0]=0;
 
-        int res=helper(n-1,x,dp,c,n);
-        if (res>=(int)1e9)
+        for (int target=1;target<=x;target++)
+            if (target-c[0]>=0)
+                dp[0][target]=1+dp[0][target-c[0]];
+
+        for (int pos=1;pos<n;pos++) {
+            for (int target=1;target<=x;target++) {
+                int notPick=dp[pos-1][target];
+
+                int pick=(int)1e9;
+                if (target-c[pos]>=0)
+                    pick=1+dp[pos][target-c[pos]];
+
+                dp[pos][target]=Math.min(pick,notPick);
+            }
+        }
+
+        int res=dp[n-1][x];
+        if (res >= (int)1e9)
             res=-1;
 
         out.println(res);
