@@ -23,6 +23,7 @@
 - [Movie Festival](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/MovieFestival.java)
 - [Towers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/Towers.java)
 - [Playlist](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/Playlist.java)
+- [Collecting Numbers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/CollectingNumbers.java)
 - [Josephus Problem I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/JosephusProblemI.java)
 
 
