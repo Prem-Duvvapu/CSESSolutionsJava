@@ -25,6 +25,10 @@
 - [Playlist](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/Playlist.java)
 - [Collecting Numbers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/CollectingNumbers.java)
 - [Missing Coin Sum](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/MissingCoinSum.java)
+- [Subarray Sums I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SubarraySumsI.java)
+- [Factory Machines](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/FactoryMachines.java)
+- [Sum of Three Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SumOfThreeValues.java)
+- [Traffic Lights](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/TrafficLights.java)
 - [Josephus Problem I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/JosephusProblemI.java)
 
 
