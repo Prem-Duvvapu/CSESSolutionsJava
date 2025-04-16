@@ -29,6 +29,8 @@
 - [Factory Machines](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/FactoryMachines.java)
 - [Sum of Three Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SumOfThreeValues.java)
 - [Traffic Lights](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/TrafficLights.java)
+- [Subarray Sums II](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SubarraySumsII.java)
+- [Subarray Divisibility](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SubarrayDivisibility.java)
 - [Josephus Problem I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/JosephusProblemI.java)
 
 
