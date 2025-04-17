@@ -21,30 +21,13 @@ public class RoomAllocation {
     }
 }
 
-class Pair implements Comparable<Pair> {
-    int endDay;
-    int roomNum;
-
-    Pair(int endDay,int roomNum) {
-        this.endDay=endDay;
-        this.roomNum=roomNum;
-    }
-
-    @Override
-    public int compareTo(Pair other) {
-        if (this.endDay!=other.endDay)
-            return Integer.compare(this.endDay, other.endDay);
-
-        return Integer.compare(this.roomNum,other.roomNum);
-    }
-}
-
 class Solution {
     public void solve(int[][] arr,int n,PrintWriter out) {
         int[][] sortedArr=new int[n][3];
-        TreeSet<Pair> set=new TreeSet<>();
+        PriorityQueue<int[]> pq=new PriorityQueue<>((x,y)->Integer.compare(x[0],y[0]));
         int[] res=new int[n];
         StringBuilder sb=new StringBuilder();
+        int totalRooms=0;
 
         for (int i=0;i<n;i++) {
             sortedArr[i][0]=arr[i][0];
@@ -52,27 +35,25 @@ class Solution {
             sortedArr[i][2]=i;
         }
 
-        Arrays.sort(sortedArr,(x,y)->Integer.compare(x[1],y[1]));
+        Arrays.sort(sortedArr,(x,y)->Integer.compare(x[0],y[0]));
 
         for (int i=0;i<n;i++) {
             int startDay=sortedArr[i][0];
             int endDay=sortedArr[i][1];
             int index=sortedArr[i][2];
-            Pair curr=set.lower(new Pair(startDay,-1));
-            int currRoomNum;
-
-            if (curr==null) {
-                currRoomNum=set.size()+1;
+            
+            if (pq.isEmpty() || pq.peek()[0]>=startDay) {
+                totalRooms+=1;
+                res[index]=totalRooms;
+                pq.add(new int[]{endDay,totalRooms});
             } else {
-                currRoomNum=curr.roomNum;
-                set.remove(curr);
+                int vacantRoom=pq.poll()[1];
+                res[index]=vacantRoom;
+                pq.add(new int[]{endDay, vacantRoom});
             }
-
-            res[index]=currRoomNum;
-            set.add(new Pair(endDay,currRoomNum));
         }
 
-        sb.append(set.size()).append(" ");
+        sb.append(totalRooms).append("\n");
         for (int i=0;i<n;i++)
             sb.append(res[i]).append(" ");
 
