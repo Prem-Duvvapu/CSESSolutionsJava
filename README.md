@@ -31,7 +31,11 @@
 - [Traffic Lights](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/TrafficLights.java)
 - [Subarray Sums II](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SubarraySumsII.java)
 - [Subarray Divisibility](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SubarrayDivisibility.java)
+- [Array Division](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/ArrayDivision.java)
+- [Tasks and Deadlines](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/TasksAndDeadlines.java)
+- [Nearest Smaller Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/NearestSmallerValues.java)
 - [Josephus Problem I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/JosephusProblemI.java)
+- [Room Allocation](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/RoomAllocation.java)
 
 
 ## Dynamic Programming
