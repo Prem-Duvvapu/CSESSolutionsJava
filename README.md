@@ -36,6 +36,8 @@
 - [Nearest Smaller Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/NearestSmallerValues.java)
 - [Josephus Problem I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/JosephusProblemI.java)
 - [Room Allocation](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/RoomAllocation.java)
+- [Reading Books](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/ReadingBooks.java)
+- [Sum of Four Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SumOfFourValues.java)
 
 
 ## Dynamic Programming
