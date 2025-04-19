@@ -38,6 +38,7 @@
 - [Room Allocation](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/RoomAllocation.java)
 - [Reading Books](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/ReadingBooks.java)
 - [Sum of Four Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SumOfFourValues.java)
+- [Subarray Distinct Values](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/SortingAndSearching/SubarrayDistinctValues.java)
 
 
 ## Dynamic Programming
