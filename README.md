@@ -44,6 +44,7 @@
 ## Dynamic Programming
 - [Dice Combinations](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/DiceCombinations.java)
 - [Minimizing Coins](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/MinimizingCoins.java)
+- [Coin Combinations I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/CoinCombinationsI.java)
 
 ## Graph Algorithms 
 - [Message Route](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/MessageRoute.java)

@@ -1,24 +1,45 @@
 import java.io.*;
 import java.util.*;
 
-public class StandardTemplate {
+public class CoinCombinationsI {
     public static void main(String[] args) {
         FastReader fr=new FastReader();
         PrintWriter out=new PrintWriter(System.out);
 
-        //take input
+        int n=fr.nextInt();
+        int x=fr.nextInt();
+        int[] c=new int[n];
+
+        for (int i=0;i<n;i++)
+            c[i]=fr.nextInt();
 
         Solution solution=new Solution();
-        solution.solve();
+        solution.solve(c,x,n,out);
 
         out.close();
     }
 }
 
 class Solution {
-    //write the logic here
-    public void solve() {
+    public static final int MOD=1_000_000_007;
+
+    public void solve(int[] c,int x,int n,PrintWriter out) {
+        Arrays.sort(c);
+        int[] dp=new int[x+1];
+        dp[0]=1;
+
+        for (int target=1;target<=x;target++) {
+            for (int i=0;i<n;i++) {
+                if (c[i]>target)
+                    break;
+
+                dp[target]=(dp[target]+dp[target-c[i]])%MOD;
+            }
+            
+            // System.out.println(target+" "+Arrays.toString(dp));
+        }
         
+        out.print(dp[x]);
     }
 }
 
