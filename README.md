@@ -46,6 +46,7 @@
 - [Minimizing Coins](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/MinimizingCoins.java)
 - [Coin Combinations I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/CoinCombinationsI.java)
 - [Removing Digits](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/RemovingDigits.java)
+- [Grid Paths](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/GridPaths.java)
 
 
 ## Graph Algorithms 
