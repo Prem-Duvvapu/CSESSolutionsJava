@@ -48,6 +48,8 @@
 - [Removing Digits](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/RemovingDigits.java)
 - [Grid Paths](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/GridPaths.java)
 - [Coin Combinations II](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/CoinCombinationsII.java)
+- [Book Shop](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/BookShop.java)
+
 
 ## Graph Algorithms 
 - [Message Route](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/MessageRoute.java)
