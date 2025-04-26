@@ -50,6 +50,7 @@
 - [Coin Combinations II](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/CoinCombinationsII.java)
 - [Book Shop](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/BookShop.java)
 - [Edit Distance](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/EditDistance.java)
+- [Money Sums](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/MoneySums.java)
 
 
 ## Graph Algorithms 
