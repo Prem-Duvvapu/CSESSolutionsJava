@@ -49,7 +49,7 @@
 - [Grid Paths](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/GridPaths.java)
 - [Coin Combinations II](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/CoinCombinationsII.java)
 - [Book Shop](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/BookShop.java)
-
+- [Money Sums](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/MoneySums.java)
 
 ## Graph Algorithms 
 - [Message Route](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/MessageRoute.java)
