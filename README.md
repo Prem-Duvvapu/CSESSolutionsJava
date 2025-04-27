@@ -51,6 +51,7 @@
 - [Book Shop](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/BookShop.java)
 - [Edit Distance](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/EditDistance.java)
 - [Money Sums](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/MoneySums.java)
+- [Array Description](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/ArrayDescription.java)
 
 
 ## Graph Algorithms 
