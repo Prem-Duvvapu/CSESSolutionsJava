@@ -70,41 +70,6 @@ class Solution {
     }
 }
 
-
-
-    //Memoization
-    // public int helper(int pos,int prevVal,int[][] dp,int[] x,int m,int n) {
-    //     if (prevVal<1 || prevVal>m)
-    //         return 0;
-
-    //     if (pos==n)
-    //         return 1;
-
-    //     if (dp[pos][prevVal]!=-1)
-    //         return dp[pos][prevVal];
-
-    //     if (x[pos]!=0) {
-    //         if (pos>0 && Math.abs(prevVal-x[pos])>1)
-    //                 return 0;
-
-    //         return dp[pos][prevVal]=helper(pos+1,x[pos],dp,x,m,n);
-    //     }
-
-    //     int totalWays=0;
-
-    //     if (pos==0 && x[pos]==0) {
-    //         for (int i=1;i<=m;i++) {
-    //             totalWays=(totalWays+helper(pos+1,i,dp,x,m,n))%mod;
-    //         }
-    //     } else {
-    //         for (int i=prevVal-1;i<=prevVal+1;i++) {
-    //             totalWays=(totalWays+helper(pos+1,i,dp,x,m,n))%mod;
-    //         }
-    //     }
-
-    //     return dp[pos][prevVal]=totalWays;
-    // }
-
 class FastReader {
     BufferedReader br;
     StringTokenizer st;
