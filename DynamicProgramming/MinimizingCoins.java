@@ -22,54 +22,36 @@ public class MinimizingCoins {
 
 class Solution {
     public void solve(int[] c,int x,int n,PrintWriter out) {
-        int[][] dp=new int[n][x+1];
-        for (int i=0;i<n;i++)
-            for (int j=0;j<=x;j++)
-                dp[i][j]=(int)1e9;
+        int[] prev=new int[x+1];
+        int[] curr=new int[x+1];
 
-        for (int i=0;i<n;i++)
-            dp[i][0]=0;
+        Arrays.fill(prev,(int)1e9);
+        Arrays.fill(curr,(int)1e9);
 
-        for (int target=1;target<=x;target++)
-            if (target-c[0]>=0)
-                dp[0][target]=1+dp[0][target-c[0]];
+        prev[0]=0;
+        curr[0]=0;
+
+        for (int target=c[0];target<=x;target+=c[0])
+            prev[target]=1+prev[target-c[0]];
 
         for (int pos=1;pos<n;pos++) {
-            for (int target=1;target<=x;target++) {
-                int notPick=dp[pos-1][target];
-
+            for (int target=0;target<=x;target++) {
+                int notPick=prev[target];
                 int pick=(int)1e9;
-                if (target-c[pos]>=0)
-                    pick=1+dp[pos][target-c[pos]];
 
-                dp[pos][target]=Math.min(pick,notPick);
+                if (c[pos]<=target)
+                    pick=1+curr[target-c[pos]];
+
+                curr[target]=Math.min(pick,notPick);
             }
+
+            for (int i=0;i<=x;i++)
+                prev[i]=curr[i];
         }
 
-        int res=dp[n-1][x];
-        if (res >= (int)1e9)
-            res=-1;
+        int res=(prev[x]>=(int)1e9) ? -1: prev[x];
 
         out.println(res);
-    }
-
-    public int helper(int pos,int x,int[][] dp,int[] c,int n) {
-        if (pos==0) {
-            if (x%c[0]==0)
-                return x/c[0];
-
-            return (int)1e9;
-        }
-
-        if (dp[pos][x]!=-1)
-            return dp[pos][x];
-
-        int notPick=helper(pos-1,x,dp,c,n);
-        int pick=(int)1e9;
-        if (c[pos]<=x)
-            pick=1+helper(pos,x-c[pos],dp,c,n);
-
-        return dp[pos][x]=Math.min(pick,notPick);
     }
 }
 
