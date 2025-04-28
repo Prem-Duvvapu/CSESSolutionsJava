@@ -52,7 +52,7 @@
 - [Edit Distance](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/EditDistance.java)
 - [Money Sums](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/MoneySums.java)
 - [Array Description](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/ArrayDescription.java)
-
+- [Rectangle Cutting](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/RectangleCutting.java)
 
 ## Graph Algorithms 
 - [Message Route](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/MessageRoute.java)
