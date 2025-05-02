@@ -56,6 +56,7 @@
 - [Increasing Subsequence](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/IncreasingSubsequence.java)
 - [Two Sets II](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/TwoSetsII.java)
 - [Removal Game](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/RemovalGame.java)
+- [Counting Towers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/CountingTowers.java)
 
 
 ## Graph Algorithms 
