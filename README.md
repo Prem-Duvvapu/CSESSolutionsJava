@@ -57,6 +57,7 @@
 - [Two Sets II](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/TwoSetsII.java)
 - [Removal Game](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/RemovalGame.java)
 - [Counting Towers](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/CountingTowers.java)
+- [Projects](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/DynamicProgramming/Projects.java)
 
 
 ## Graph Algorithms 
