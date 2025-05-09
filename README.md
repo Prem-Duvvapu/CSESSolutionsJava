@@ -64,6 +64,8 @@
 - [Message Route](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/MessageRoute.java)
 - [Building Teams](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/BuildingTeams.java)
 - [Labyrinth](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/Labyrinth.java)
+- [Shortest Routes I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/ShortestRoutesI.java)
+
 
 
 ## Range Queries
