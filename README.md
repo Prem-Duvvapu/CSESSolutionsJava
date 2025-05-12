@@ -66,6 +66,7 @@
 - [Labyrinth](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/Labyrinth.java)
 - [Shortest Routes I](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/ShortestRoutesI.java)
 - [Round Trip](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/RoundTrip.java)
+- [Shortest Routes II](https://github.com/Prem-Duvvapu/CSESSolutionsJava/blob/main/GraphAlgorithms/ShortestRoutesII.java)
 
 
 
